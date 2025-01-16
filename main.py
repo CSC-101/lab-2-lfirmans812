@@ -27,7 +27,7 @@ def function2(a:int, b:int, c:int) -> int:
    else:
       return 2 * c      # In general, when will a call to this function evaluate this statement? This statement will be evaluated when a > b,  a > c, and b > c.
 
-answer1 = function2(3, 2, 1) #What is the value of answer1?
-answer2 = function2(2, 3, 1) #What is the value of answer2?
-answer3 = function2(2, 1, 3) #What is the value of answer3?
+answer1 = function2(3, 2, 1) #What is the value of answer1? answer1 = 1
+answer2 = function2(2, 3, 1) #What is the value of answer2? answer2 = 4
+answer3 = function2(2, 1, 3) #What is the value of answer3? answer3 = 6
 print(answer1)
